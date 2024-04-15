@@ -1,5 +1,5 @@
 import { MapPinIcon, PhoneIcon } from '@heroicons/react/16/solid';
-import React from 'react';
+import Rating from '@mui/material/Rating';
 
 const PlaceDetails = ({ place }) => {
   return (
@@ -18,6 +18,10 @@ const PlaceDetails = ({ place }) => {
 
       <h5 className="font-bold p-4">{place.name}</h5>
       <div className="pl-4 pr-4">
+        <div className="flex justify-between">
+          <Rating value={Number(place.rating)} readOnly />
+          <p className="text-sm">out of {place.num_reviews} reviews</p>
+        </div>
         <div className="flex justify-between">
           <p className="text-sm">Price</p>
           <p className="text-sm">{place.price_level}</p>
@@ -67,12 +71,14 @@ const PlaceDetails = ({ place }) => {
           >
             Trip Advisor
           </button>
-          <button
-            onClick={() => window.open(place.website, '_blank')}
-            className="text-xs p-1 bg-amber-800 text-slate-300 rounded-md cursor-pointer"
-          >
-            Website
-          </button>
+          {place.website && (
+            <button
+              onClick={() => window.open(place.website, '_blank')}
+              className="text-xs p-1 bg-amber-800 text-slate-300 rounded-md cursor-pointer"
+            >
+              Website
+            </button>
+          )}
         </div>
       </div>
     </div>

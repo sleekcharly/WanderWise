@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Header, List, Map } from './components';
 import { getPlacesData } from './api';
 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 const App = () => {
   const [places, setPlaces] = useState([]);
 
@@ -32,7 +37,12 @@ const App = () => {
         </div>
 
         <div className="md:col-span-8">
-          <Map setCoords={setCoords} setBounds={setBounds} coords={coords} />
+          <Map
+            setCoords={setCoords}
+            setBounds={setBounds}
+            coords={coords}
+            places={places}
+          />
         </div>
       </div>
     </main>
