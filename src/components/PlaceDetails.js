@@ -1,10 +1,13 @@
 import { MapPinIcon, PhoneIcon } from '@heroicons/react/16/solid';
 import Rating from '@mui/material/Rating';
 
-const PlaceDetails = ({ place }) => {
+const PlaceDetails = ({ place, selected, refProp }) => {
+  if (selected)
+    refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
   return (
     <div className="shadow-xl rounded-md mr-2 mb-4">
-      <div classNme="h-[350px] rounded-md">
+      <div className="h-[350px] rounded-md">
         <img
           src={
             place.photo
