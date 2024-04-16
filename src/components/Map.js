@@ -26,8 +26,8 @@ const Map = ({ setCoords, setBounds, coords, places, setChildClicked }) => {
         }}
         onChildClick={(child) => setChildClicked(child)}
       >
-        {places.length &&
-          places.map((place, i) => (
+        {places?.length &&
+          places?.map((place, i) => (
             <div
               className="absolute transform translate-x-1/2 translate-y-1/2 z-10 hover:z-20"
               lat={Number(place.latitude)}
