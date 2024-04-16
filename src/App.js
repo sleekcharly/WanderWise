@@ -6,6 +6,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import { CssBaseline } from '@mui/material';
 
 const App = () => {
   const [places, setPlaces] = useState([]);
@@ -49,6 +50,7 @@ const App = () => {
 
   return (
     <main>
+      <CssBaseline />
       <Header setCoords={setCoords} />
       <div className="grid grid-cols-1 md:grid-cols-12 w-full">
         <div className="md:col-span-4">

@@ -2,6 +2,9 @@ import axios from 'axios';
 
 export const getPlacesData = async (type, sw, ne) => {
   try {
+    console.log(
+      `https://travel-advisor.p.rapidapi.com/${type}/list-in-boundary`,
+    );
     const {
       data: { data },
     } = await axios.get(

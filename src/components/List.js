@@ -54,8 +54,8 @@ const List = ({
               >
                 <option value={0}>All</option>
                 <option value={3}>Above 3.0</option>
-                <option value={4}>Above 4.5</option>
-                <option value={5}>Above 5.0</option>
+                <option value={4}>Above 4.0</option>
+                <option value={5}>Above 4.5</option>
               </select>
             </form>
           </div>

@@ -1,8 +1,8 @@
 # VISION CALL VIDEO CONFERENCING APPLICATION
 
-Here is an awesome video conferencing application built with the latest Next.js and Typescript, this project portrays a video conferencing tool just like the popular Zoom app.
+Wander Wise is a sophisticated travel companion application that leverages the power of Google Maps to enhance users' travel experiences. The app integrates advanced geolocation features, allowing users to pinpoint their location and navigate their surroundings effortlessly. By harnessing the Google Maps API, Wander Wise provides seamless searching for places and destinations, offering users instant access to nearby restaurants, hotels, and attractions. The application utilizes specialized Rapid APIs to fetch detailed data about local amenities, ensuring users receive tailored recommendations based on their preferences and location.
 
-It enables users to securely log in, create meetings, and access various meeting functionalities such as recording, screen sharing and managing participants
+With Wander Wise, users can filter through a variety of data, making it easy to find precisely what they're looking for, whether it's a top-rated restaurant, a comfortable hotel, or a popular tourist attraction. The app is built with a modern tech stack including React, Tailwind CSS, and Material-UI for a sleek, intuitive user interface. Combined with the robust capabilities of the Google Maps API and Rapid API's TripAdvisor integration, Wander Wise offers a comprehensive and user-friendly travel tool that caters to all types of explorers.
 
 ## Examples
 
@@ -12,12 +12,12 @@ Try out the demo here: https://vision-call.vercel.app/
 
 ## Tech Stack
 
-| Type            | Tech                                      |
-| --------------- | ----------------------------------------- |
-| Language        | [JavaScript](https://www.javascript.com/) |
-| Framework       | [Next.js](https://nextjs.org/)            |
-| Styling         | [Tailwind CSS](https://tailwindcss.com/)  |
-| Styling         | [Shadcn](https://ui.shadcn.com/)          |
-| User Management | [Clerk](https://clerk.com/)               |
-| Video Streaming | [getStream](https://getstream.io/)        |
-| Hosting         | [Vercel](https://vercel.com)              |
+| Type      | Tech                                                                      |
+| --------- | ------------------------------------------------------------------------- |
+| Language  | [JavaScript](https://www.javascript.com/)                                 |
+| Framework | [React](https://react.dev/)                                               |
+| Styling   | [Tailwind CSS](https://tailwindcss.com/)                                  |
+| Styling   | [Material-UI](https://mui.com/)                                           |
+| API       | [RapidAPI (TripAdvisor)](https://rapidapi.com/apidojo/api/travel-advisor) |
+| API       | [GOOGLE MAPS API](https://console.cloud.google.com)                       |
+| Hosting   | [Netlify](https://netlify.com)                                            |
