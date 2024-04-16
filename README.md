@@ -1,4 +1,4 @@
-# VISION CALL VIDEO CONFERENCING APPLICATION
+# WANDER WISE
 
 Wander Wise is a sophisticated travel companion application that leverages the power of Google Maps to enhance users' travel experiences. The app integrates advanced geolocation features, allowing users to pinpoint their location and navigate their surroundings effortlessly. By harnessing the Google Maps API, Wander Wise provides seamless searching for places and destinations, offering users instant access to nearby restaurants, hotels, and attractions. The application utilizes specialized Rapid APIs to fetch detailed data about local amenities, ensuring users receive tailored recommendations based on their preferences and location.
 
@@ -6,9 +6,9 @@ With Wander Wise, users can filter through a variety of data, making it easy to 
 
 ## Examples
 
-Try out the demo here: https://vision-call.vercel.app/
+Try out the demo here:https://wander-wisee.netlify.app/
 
-![VISION_CALL_results_image](./public/images/vision_call.png)
+![WANDER_WISE_results_image](./public/images/wander_wise.png)
 
 ## Tech Stack
 
